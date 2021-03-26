@@ -3,7 +3,7 @@
 import PySimpleGUI as sg
 
 def tela():
-    layout = [[sg.Text('tabuada feita \npor bruno dos santos')],
+    layout = [[sg.Text('tabuada feita \npor bruno dos meu sobrenome que você nunca sabera ')],
              [sg.Text('digíte um número para ver a sua tabuada ↓↓↓↓')],
              [(sg.Input(key='-pergunta-'))],
              [sg.Text(size=(40, 1), key='chave_a')],
